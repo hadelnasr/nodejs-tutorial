@@ -1,5 +1,7 @@
-const request = require('./request')
-const response = require('./response')
+const {request, response} = require('./internals');
+
+// const {send} = require('./request')
+// const {read} = require('./response')
 
 function requestMethod(url, data)
 {
